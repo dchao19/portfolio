@@ -27,11 +27,8 @@ steps:
 - script: yarn build
   displayName: 'Build'
 
-- script: yarn global add firebase-tools
+- script: sudo npm install -g firebase-tools
   displayName: 'Install Deployment Tools'
-
-- script: export PATH="$PATH:`yarn global bin`"
-  displayName: 'Add Deployment Tools to Path'
 
 - script: firebase deploy --token $(firebaseToken)
   displayName: "Deploy Firebase"

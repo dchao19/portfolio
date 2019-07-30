@@ -27,7 +27,7 @@ steps:
 - script: yarn build
   displayName: 'Build'
 
-- script: sudo npm install -g firebase-tools
+- script: npm install -g firebase-tools
   displayName: 'Install Deployment Tools'
 
 - script: firebase deploy --token $(firebaseToken)

@@ -30,5 +30,8 @@ steps:
 - script: yarn global add firebase-tools
   displayName: 'Install Deployment Tools'
 
+- script: export PATH="$PATH:`yarn global bin`"
+  displayName: 'Add Deployment Tools to Path'
+
 - script: firebase deploy --token $(firebaseToken)
   displayName: "Deploy Firebase"

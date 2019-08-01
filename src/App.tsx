@@ -1,15 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Router } from '@reach/router';
+
 import './App.css';
+
+import InConstruction from "./pages/InConstruction";
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hold tight!</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        I'm working on an update. 
-      </header>
+      {/* <div className="sidebar">
+        <Logo/>
+        <SocialLinks/>
+        <Navigation/>
+      </div> */}
+      <Router>
+        <InConstruction path="/"/>  
+      </Router>
     </div>
   );
 }

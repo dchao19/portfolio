@@ -1,0 +1,30 @@
+.SocialLinks-list {
+    list-style: none;
+    list-style-position: outside;
+    padding: 0;
+    text-align: left;   
+}
+
+.SocialLinks-listItem {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0.1em;
+}
+
+.SocialLinks-listItem-logo {
+    margin-right: 0.5em;
+    height: 1.1em;
+}
+
+.SocialLinks-listItem-link {
+    font-size: 10pt;
+    color: black;
+    text-decoration: none;
+}
+
+.SocialLinks-listItem-link:hover {
+    font-size: 10pt;
+    color: black;
+    text-decoration: underline;
+}
+

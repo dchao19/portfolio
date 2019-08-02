@@ -3,12 +3,15 @@ import { Router } from '@reach/router';
 
 import './App.css';
 
+import Logo from "./components/Logo";
+import SocialLinks from "./components/SocialLinks";
+
 import InConstruction from "./pages/InConstruction";
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      {/* <div className="sidebar">
+      {/* <div className="App-sidebar">
         <Logo/>
         <SocialLinks/>
         <Navigation/>

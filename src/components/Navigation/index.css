@@ -1,0 +1,12 @@
+.Navigation-list {
+    list-style: none;
+    list-style-position: outside;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 175pt;
+    font-size: 14pt;
+    line-height: 2;
+    margin-top: 0;
+}

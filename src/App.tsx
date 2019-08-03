@@ -3,8 +3,9 @@ import { Router } from '@reach/router';
 
 import './App.css';
 
-import Logo from "./components/Logo";
-import SocialLinks from "./components/SocialLinks";
+// import Logo from "./components/Logo";
+// import SocialLinks from "./components/SocialLinks";
+// import Navigation from "./components/Navigation";
 
 import InConstruction from "./pages/InConstruction";
 

@@ -1,7 +1,7 @@
-import React from 'react';
-import { Router } from '@reach/router';
+import React from "react";
+import { Router } from "@reach/router";
 
-import './App.css';
+import "./App.css";
 
 // import Logo from "./components/Logo";
 // import SocialLinks from "./components/SocialLinks";
@@ -18,10 +18,10 @@ const App: React.FC = () => {
         <Navigation/>
       </div> */}
       <Router>
-        <InConstruction path="/"/>  
+        <InConstruction path="/" />
       </Router>
     </div>
   );
-}
+};
 
 export default App;

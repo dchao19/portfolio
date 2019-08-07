@@ -3,23 +3,25 @@ import { Router } from "@reach/router";
 
 import "./App.css";
 
-// import Logo from "./components/Logo";
-// import SocialLinks from "./components/SocialLinks";
-// import Navigation from "./components/Navigation";
+import Logo from "./components/Logo";
+import SocialLinks from "./components/SocialLinks";
+import Navigation from "./components/Navigation";
 
-import InConstruction from "./pages/InConstruction";
+import AboutMe from "./pages/AboutMe";
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      {/* <div className="App-sidebar">
-        <Logo/>
-        <SocialLinks/>
-        <Navigation/>
-      </div> */}
-      <Router>
-        <InConstruction path="/" />
-      </Router>
+      <div className="App-sidebar">
+        <Logo />
+        <SocialLinks />
+        <Navigation />
+      </div>
+      <div className="App-content">
+        <Router>
+          <AboutMe path="/" />
+        </Router>
+      </div>
     </div>
   );
 };

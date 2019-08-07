@@ -1,11 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-sidebar {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 20pt;
+}
+
+.App-content {
+  width: 40vmax;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {

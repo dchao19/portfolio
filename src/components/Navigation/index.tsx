@@ -8,10 +8,10 @@ const Navigation = () => (
   <nav>
     <ul className="Navigation-list">
       <NavigationLink to="/" text="About Me" />
-      <NavigationLink to="/projects" text="Projects" />
+      {/* <NavigationLink to="/projects" text="Projects" />
       <NavigationLink to="/experience" text="Experience" />
       <NavigationLink to="/education" text="Education" />
-      <NavigationLink to="/skills" text="Skills" />
+      <NavigationLink to="/skills" text="Skills" /> */}
     </ul>
   </nav>
 );

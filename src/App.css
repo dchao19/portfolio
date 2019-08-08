@@ -18,6 +18,13 @@
 }
 
 @media only screen and (max-width: 700px) {
+  html,
+  body,
+  #root,
+  .App {
+    height: auto;
+  }
+  
   .App {
     flex-direction: column;
   }
